@@ -1,7 +1,9 @@
 import React from "react";
 
-const LandingPage1 = () => {
-  return <main></main>;
+const Carousal = () => {
+  return <main className="h-screen flex">
+
+  </main>;
 };
 
-export default LandingPage1;
+export default Carousal;
