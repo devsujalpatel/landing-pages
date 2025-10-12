@@ -2,7 +2,7 @@ import React from "react";
 
 const imagesLinks = [
   {
-    link: "https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/67243e0614411f001d3df79a.jpg",
+    link: "https://i.pinimg.com/736x/2e/33/27/2e3327b1d69c0d4c3c5446a075db9d23.jpg",
     title: "Ragnar Lothbrok",
   },
   {
@@ -14,12 +14,12 @@ const imagesLinks = [
     title: "Jon Snow",
   },
   {
-    link: "https://media2.s-nbcnews.com/i/streams/2013/August/130808/6C8560752-34628450-63ac-0450-b9d3-f4075ef2312b-bbs5b-gallery-0858-rgb-v1.jpg",
-    title: "Walter White",
-  },
-  {
     link: "https://i.pinimg.com/736x/55/7e/bc/557ebcf3b86e7e4e9610da0e4411863f.jpg",
     title: "Thomas Shelby",
+  },
+  {
+    link: "https://i.pinimg.com/736x/71/ba/00/71ba005f759cf748457d51875049df63.jpg",
+    title: "Walter White",
   },
 ];
 
@@ -30,7 +30,7 @@ const Carousal = () => {
         {imagesLinks.map(({ link, title }, i) => (
           <div
             key={i}
-            className="h-full w-full flex-1 overflow-hidden cursor-pointer transition-all duration-500 ease-in-out hover:flex-2"
+            className="h-full w-full flex-1 cursor-pointer overflow-hidden transition-all duration-500 ease-in-out hover:flex-2"
           >
             <img
               src={link}
